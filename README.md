@@ -1,7 +1,7 @@
 # easybutton
 Repurpose an easy button to say other things
 
-# Building
+# Software and Sounds
 
 This uses a modified PCM audio driver: https://github.com/gvb/PCM
 
