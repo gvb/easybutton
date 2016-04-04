@@ -8,7 +8,6 @@
 #include "Homer_Woohoo.h"
 #include "Nelson_Ha_ha.h"
 #include "Lisa_Noooo.h"
-#include "dohdoh.h"
 #include "Homer_EveryoneIsStupid.h"
 #include "Homer_Giggles.h"
 
@@ -36,7 +35,6 @@ struct {
 //  {Nelson_Ha_ha, sizeof(Nelson_Ha_ha), SAMPLE_RATE}, // 7726 @8000
   {Lisa_Noooo, sizeof(Lisa_Noooo), SAMPLE_RATE}, // 19564 @8000
 // Too large:
-//  {dohdoh, sizeof(dohdoh), SAMPLE_RATE}, // 38504 @8000
 //  {Homer_EveryoneIsStupid, sizeof(Homer_EveryoneIsStupid), SAMPLE_RATE}, // 27836 @8000
 //  {Homer_Giggles, sizeof(Homer_Giggles), SAMPLE_RATE}, // 45344 @8000
 };
