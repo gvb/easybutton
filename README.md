@@ -21,7 +21,7 @@ Create your own .wav files or download selected Simpsons' .wav files from http:/
 * [Arduino Pro Mini 328 - 3.3V/8MHz](https://www.sparkfun.com/products/11114) - use the 3.3v one with the on-board linear regulator disabled. This allows it to run directly off the two AAA batteries of the easy button, minimizing current draw.
 * [SparkFun Mono Audio Amp Breakout - TPA2005D1](https://www.sparkfun.com/products/11044) - Audio amp to drive the speaker from the Arduino output.
 
-Pins:
+Arduino Pins:
 * 2 - Button. The button input uses the weak pullup capability of the Arduino and needs it to be grounded when the switch is pressed. This is configured to interrupt when it goes low, waking up the Arduino and starting the playback.
-* 7 - Wired to the amplifier shutdown pin. This is used to minimizing current draw when it isn't active.
+* 7 - Wired to the amplifier shutdown pin. This is used to minimize current draw when it isn't active.
 * 11 - Audio output to drive the speaker (defined in PCM.c).
