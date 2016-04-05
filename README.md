@@ -1,11 +1,16 @@
 # easybutton
-Repurpose an easy button to say other things
+
+Prank an easy button to say unexpected things... because "That was easy"
+is just stupid.
 
 # Software and Sounds
 
 This uses a modified PCM audio driver: https://github.com/gvb/PCM
 
-Create your own .wav files or download selected Simpsons' .wav files from http://www.richmolnar.com/simpsnd.htm (not included). There is a Makefile that uses sox to resample the .wav file(s) to 6KHz (or other rates) and xxd to convert the .wav file(s) to a C include file.
+Create your own .wav files or download selected Simpsons' .wav files
+from http://www.richmolnar.com/simpsnd.htm (not included). There is a
+Makefile that uses sox to resample the .wav file(s) to 6KHz (or other
+rates) and xxd to convert the .wav file(s) to a C include file.
 
 * [Bart - Cool Man](http://www.richmolnar.com/Sounds/Bart%20-%20Cool%20Man.wav)
 * [Bart - I didn't do it](http://www.richmolnar.com/Sounds/Bart%20-%20I%20didn't%20do%20it.wav)

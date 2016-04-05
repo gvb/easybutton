@@ -7,6 +7,30 @@ all : Bart_CoolMan.h Bart_Ididntdoit.h Homer_Doh.h \
 	Homer_EveryoneIsStupid.h Homer_Giggles.h Homer_Woohoo.h \
 	Lisa_Noooo.h Nelson_Ha_ha.h
 
+Bart_CoolMan.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Bart%20-%20Cool%20Man.wav"
+
+Bart_Ididntdoit.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Bart%20-%20I%20didn't%20do%20it.wav"
+
+Homer_Doh.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Homer%20-%20D'oh!%20(1).wav"
+
+Homer_EveryoneIsStupid.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Homer%20-%20Everyone%20is%20stupid.wav"
+
+Homer_Giggles.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Homer%20-%20Giggles.wav"
+
+Homer_Woohoo.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Homer%20-%20Woohoo!%20(1).wav"
+
+Lisa_Noooo.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Lisa%20-%20Noooo!.wav"
+
+Nelson_Ha_ha.wav :
+	curl -o $@ "http://www.richmolnar.com/Sounds/Nelson%20-%20Ha%20ha.wav"
+
 Bart_CoolMan.h : Bart_CoolMan.wav
 
 Bart_Ididntdoit.h : Bart_Ididntdoit.wav
