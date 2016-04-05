@@ -3,6 +3,8 @@
 Prank an easy button to say unexpected things... because "That was easy"
 is just stupid.
 
+See the [wiki](../../wiki) for pictures of the modifications.
+
 # Software and Sounds
 
 This uses a modified PCM audio driver: https://github.com/gvb/PCM
